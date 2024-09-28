@@ -1,0 +1,211 @@
+title: Start
+tags:
+---
+*On your quest to find a sands companion,
+*You ask a lady running a jewlery shop for help.
+INEX SYI-AH: Excuse me ma'am,
+INEX SYI-AH: Hello- I'm looking for someone to guide me through the desert lands?
+*You remind yourself that you need to find a desert partner...
+*WITHOUT telling them too much information.
+*The lady points to the west.
+LADY: He should help you.
+*Your eye catches on the cloaked figure who seems to be headed in the same direction as you.
+INEX SYI-AH: Thank you, I wish you well.
+*You jog to catch up to the cloaked person,
+*and tap mysterious person on the shoulder.
+*He appears to be young, maybe 18 - 19?
+*The Villager turns to face you
+Cloaked Villager: Hm? Oh. . .
+Cloaked Villager: ... hello.
+*The Villager does not look pleased to see you.
+    -> Polite Introduction
+        <<jump Polite>>
+    -> Threatening Introduction
+        <<jump Rude>>
+       
+===
+
+title: Polite
+---
+INEX SYI-AH: Hello, My name is Inex Syi-ah, I am a protector of Citron Coves.
+INEX SYI-AH: It's lovely to meet you!
+*The Villager scuffs at you.
+Cloaked Villager: What do you want?
+-> Politely Ask His name
+    <<jump Politeask>>
+-> Rudely Ask His Name
+    <<jump Rudeask>>
+===
+
+title: Rude
+---
+INEX SYI-AH: Listen here, Desert Rat.
+*You reach forward grabbing the collar of the Villager's shirt.
+*You lift the small warrior off the ground.
+INEX SYI-AH: You WILL GUIDE ME through this dead wasteland,
+INEX SYI-AH: or you will die.
+*The Warrior looks surprised at your aggression...
+*and does not appear threatened.
+*The other Villagers around him grow wary...
+*There are lots of eyes on you now.
+Villager: You think you're threatening? You'll put me down if you know what's good for you.
+*As you grip his shirt, you feel a cold dragontooth dagger against your side.
+-> Put Him Down
+    <<jump Rudeask2>>
+===
+
+title: Politeask
+---
+INEX SYI-AH: Actually, currently I'm about to embark on a journey to find the robotic graveyard-
+*The Villager scuffs once more.
+*You rethink what you want to say...
+INEX SYI-AH: Could I get your name?
+BASTION HALE: The name's Bastion Hale, and what the hell would you want in the Desert's robotic graveyard?
+-> Tell Him the Truth
+    <<jump Truth>>
+-> Lie 
+    <<jump lie>>
+===
+
+title: Truth
+---
+INEX SYI-AH: I'm looking for a specific robot who is rumored to be left there.
+*You have peeked Bastion's Interest
+BASTION HALE: Specific Robot, eh? 
+*Bastion gives you a curious look before speaking once more...
+BASTION HALE: What robot are you after?
+-> Avoid sharing accurate information
+INEX SYI-AH: Just some extra parts... So what are you headed out for?
+*Bastion stares at you for a second- questioning your intelligence
+BASTION HALE: I live out there.
+*INEX Appears shocked.
+*The desert is a endless wasteland known to kill anyone who enters...
+*With endless beasts- some whom haven't even been documented since they are so deadly,
+*People die within seconds of meeting.
+*How could a human survive in the desert?
+INEX SYI-AH: How do-
+BASTION HALE: So, You live near the graveyard? I can guide you.
+*You're slightly annoyed that he interupted you,
+*But you ultimately feel safe about entering the desert with him...
+*That is...
+*If he's telling you the truth.
+ENDING 1/5 - Honest Travel Buddies
+===
+
+title: Rudeask
+---
+INEX SYI-AH: What's your name, Rat?
+BASTION HALE: Bastion Hale- And who the hell are YOU calling a rat?
+BASTION HALE: Who the hell do you think you are,
+BASTION HALE: coming into the Deserts unannounced.
+*Bastion looks you up and down. . .
+BASTION HALE: You're not welcome here.
+BASTION HALE: WHAT do you want?
+*Bastion is annoyed by you interupting his day.
+-> Tell The Truth
+    <<jump truth2>>
+-> Lie
+    <<jump lie2>>
+
+===
+
+title: Rudeask2
+---
+INEX SYI-AH: What's your name, Rat?
+BASTION HALE: Bastion Hale- And who the hell are YOU calling a rat?
+BASTION HALE: Who the hell do you think you are,
+BASTION HALE: coming into the Deserts just to attack it's citizens.
+*Bastion looks you up and down. . .
+*He sees Potential threat against his town.
+BASTION HALE: I'll help you- But you're no longer welcome in this desert afterwards.
+INEX SYI-AH: I'll Gladly never come to this wasteland again.
+*Bastion, Keeping his daggers out, gestures you to follow him.
+*You enter the desert with one of it's own rats.
+*How disgusting of you. . .
+ENDING 3/5 - Aggressive Travel Partner
+
+===
+
+title: truth2
+---
+INEX SYI-AH: I'm looking for a specific robot who is rumored to be left there.
+*You have peeked Bastion's Interest
+BASTION HALE: Specific Robot, eh? 
+*Bastion gives you a curious look before speaking once more...
+BASTION HALE: What robot are you after?
+-> Avoid sharing accurate information
+INEX SYI-AH: None of your business, rat.
+*Bastion stares at you for a second- questioning your intelligence
+BASTION HALE: I live out there. You NEED my help.
+*INEX Appears shocked.
+*The desert is a endless wasteland known to kill anyone who enters...
+*With endless beasts- some whom haven't even been documented since they are so deadly.
+*People die within seconds of meeting these beasts.
+*How could a human survive in the desert?
+INEX SYI-AH: What the-
+BASTION HALE: HEY! There's children around.
+*You're slightly annoyed that he interupted you,
+*But you ultimately feel you have no choice but to go with him
+*That is...
+*not ideal.
+*Hopefully he's not lying about his place of residence,
+*Because your life now depends on it.
+-> Allow him to guide you
+INEX SYI-AH: Very Well, You will guide me.
+BASTION HALE: I don't recall offering...
+*You glare at him for a second.
+*He Sighs.
+BASTION HALE: Fine. But you never return here again after- got it?
+INEX SYI-AH: Gladly.
+*Thank god... 
+*You never want to come back here anyways.
+*Sand is all inbetween your toes and in your eyes,
+*Your sweat fills your clothes.
+*You will GLADLY not return.
+*You follow Bastion as he leads you off...
+*Stay far away from this man, he smells of desert.
+ENDING 4/5 - Honest Jerk
+===
+
+title: lie
+---
+INEX SYI-AH: I'm a beast researcher making a book on the desert.
+BASTION HALE: Oh really, huh?
+BASTION HALE: What kind of beasts you got so far?
+*You scramble through your memory to find a beast name...
+-> Flog-beasts
+-> Shag-phas
+*Bastion doesn't seem to buy your lie,
+*But plays along anyways.
+BASTION HALE: So, pretty common desert beasts.
+INEX SYI-AH: Yeah!
+*You feel relieved he bought your lies,
+*Until...
+BASTION HALE: Except that isn't even a Desert animal!
+*Crap...
+BASTION HALE: Good Luck with your journey,
+BASTION HALE: Jerk.
+*Bastion walks away, leaving you alone. 
+*You're now left to keep looking for a new travel partner.
+*You Sigh and hope to run into him once more,
+*Maybe then you'll be honest.
+ENDING 2/5 - Kind Liar
+===
+
+title: lie2
+---
+INEX SYI-AH: I'm a beast researcher making a book on the desert.
+BASTION HALE: Oh really, huh?
+BASTION HALE: What kind of beasts you got so far?
+*You scramble through your memory to find a beast name.
+-> Flog-beasts
+-> Shag-phas
+*Bastion doesn't buy your lie.
+BASTION HALE: That isn't a desert beast.
+BASTION HALE: Good Luck with your journey,
+BASTION HALE: a**hole.
+*Bastion walks away, leaving you alone. 
+*You're now left to keep looking for a new travel rat.
+*Great.
+ENDING 5/5 - Disrespectful Liar
+===
